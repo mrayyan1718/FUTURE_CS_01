@@ -93,6 +93,7 @@ This task provided practical hands-on exposure to common web application securit
 ---
 
 Acknowledgment
+
 Thanks to Future Interns for this hands-on opportunity in real-world cybersecurity!
 
 Task 1 completed successfully. 
