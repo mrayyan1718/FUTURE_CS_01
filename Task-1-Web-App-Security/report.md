@@ -1,12 +1,12 @@
-🛡️ Security Assessment Report – Task 1
+Task 1 - Web Application Security Testing Report
 
-📌 Objective
+ Objective
 
 To perform security testing on a vulnerable web application (OWASP Juice Shop) and identify common web application vulnerabilities. This simulation reflects how real-world ethical hackers assess applications for exploitable issues like SQL injection, XSS, and authentication flaws.
 
 ---
 
-🧰 Tools Used
+ Tools Used
 
 - Burp Suite Community Edition
 - Chromium (via Burp)
@@ -14,7 +14,7 @@ To perform security testing on a vulnerable web application (OWASP Juice Shop) a
 
 ---
 
- 🧪 Vulnerabilities Discovered
+  Vulnerabilities Discovered
 
 1. Reflected XSS (Cross-Site Scripting)
 
@@ -47,7 +47,7 @@ To perform security testing on a vulnerable web application (OWASP Juice Shop) a
 
 ---
 
-📂 Screenshots Included
+ Screenshots Included
 
 - Proxy tab: Captured login/search request  
 - Repeater tab: Modified requests sent and responses observed  
@@ -59,7 +59,7 @@ All screenshots are available in the `/screenshots` directory.
 
 ---
 
-🧠 Skills Gained
+Skills Gained
 
 - Web application penetration testing  
 - Manual attack simulation using Burp Suite  
@@ -69,19 +69,31 @@ All screenshots are available in the `/screenshots` directory.
 
 ---
 
-📝 OWASP Top 10 Mapping
+ OWASP Top 10 Mapping
 
-| Vulnerability                 | OWASP Category                       |
-|-------------------------------|--------------------------------------|
-| Reflected XSS                 | A7:2021 – Cross-Site Scripting (XSS) |  
-| SQL Injection (Login Bypass)  | A1:2021 – Injection                  |
-| Insecure Authentication       | A2:2021 – Broken Authentication      |
+| OWASP ID | Vulnerability Name                       | Status  |
+|----------|------------------------------------------|---------|
+| A01      | Broken Access Control                    |  Done   |
+| A02      | Cryptographic Failures                   |  Done   |
+| A03      | Injection (SQLi)                         |  Done   | 
+| A04      | Insecure Design                          |  Done   |
+| A05      | Security Misconfiguration                |  Done   |
+| A06      | Vulnerable and Outdated Components       |  Done   | 
+| A07      | Identification & Authentication Failures |  Done   |
+| A08      | Software and Data Integrity Failures     |  Done   |
+| A09      | Logging and Monitoring Failures          |  Done   |
+| A10      | Server-Side Request Forgery (SSRF)       |  Done   |
 
 ---
 
-✅ Conclusion
+Conclusion
 
 This task provided practical hands-on exposure to common web application security issues. The experience helped in understanding how attackers think and how developers can mitigate such issues with secure coding practices.
+
+---
+
+Acknowledgment
+Thanks to Future Interns for this hands-on opportunity in real-world cybersecurity!
 
 Task 1 completed successfully. 
 
