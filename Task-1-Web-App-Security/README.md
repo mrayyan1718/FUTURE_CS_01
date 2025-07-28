@@ -43,7 +43,7 @@ All screenshots have been added to the `/screenshots` directory and are referenc
 
 ## 📄 Report
 
-See the `Task1_Report.pdf` or `Report.md` file for a full breakdown of vulnerabilities with explanations, evidence, OWASP mapping, and recommendations.
+See the `Report.md` file for a full breakdown of vulnerabilities with explanations, evidence, OWASP mapping, and recommendations.
 
 ---
 
