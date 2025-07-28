@@ -54,7 +54,6 @@ See the `Task1_Report.pdf` or `Report.md` file for a full breakdown of vulnerabi
 - Applied OWASP Top 10 knowledge practically.
 - Built foundational skills for offensive and defensive web security.
 
----
 
-## 📁 Repository Structure
+
 
