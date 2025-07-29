@@ -35,23 +35,22 @@ This secure portal allows users to upload files, which are then encrypted using 
 ## 📁 Project Structure
 
 Task3/
-├── app.py # Main Flask application
-├── encryption.py # Encryption and key derivation logic
-├── requirements.txt # Python package requirements
-├── uploads/ # Directory for encrypted file storage
-├── templates/
-│ └── index.html # Bootstrap-powered UI template
-├── screenshots/ # Screenshots documenting UI and features
-│ ├── HomePage.png
-│ ├── FileSelection.png
-│ ├── Upload.png
-│ ├── FileListWithDownload.png
-│ ├── FileDownloaded.png
-│ ├── Uploads.png
-│ ├── TerminalRunning.png
-│ └── ErrorMessage.png
-└── pycache/ # Python bytecode cache (auto-generated)
-
+├── app.py                  # Main Flask application (backend logic)
+├── encryption.py           # AES encryption and key derivation helper functions
+├── requirements.txt        # Python dependencies list (Flask, PyCryptodome)
+├── uploads/                # Folder to store encrypted files (.enc)
+├── templates/              # Folder containing HTML template files
+│   └── index.html          # Main UI template (Bootstrap-based web page)
+├── screenshots/            # (Optional) folder storing project screenshots
+│   ├── HomePage.png
+│   ├── FileSelection.png
+│   ├── Upload.png
+│   ├── FileListWithDownload.png
+│   ├── FileDownloaded.png
+│   ├── Uploads.png
+│   ├── TerminalRunning.png
+│   └── ErrorMessage.png
+└── __pycache__/            # Python bytecode cache (auto-generated, can be ignored)
 
 ---
 
