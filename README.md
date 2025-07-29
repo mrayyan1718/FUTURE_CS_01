@@ -32,7 +32,7 @@ This internship focused on real-world cybersecurity practices across three major
 - Detected failed logins, brute force attempts, and malware  
 - Built a real-time dashboard in Splunk Dashboard Studio  
 - Documented alerts with severity, mapping & mitigation  
-📂 [View Task 2 Folder](./Task-2-Security-Alert-Monitoring)
+📂[Task 2 – Security-Alert-Monitoring-&-Incident-Response](./Task%202%3A%20Security-Alert-Monitoring-%26-Incident-Response/)
 
 ---
 
@@ -42,7 +42,7 @@ This internship focused on real-world cybersecurity practices across three major
 - Encrypted files at rest and in transit  
 - Supported secure upload/download with password-derived key  
 - Designed a **Bootstrap UI** with error handling and file listing  
-📂 [View Task 3 Folder](./Task-3-Secure-File-Sharing)
+📂[Task 3 – Secure File Sharing System](./Task-3-Secure-File-Sharing-System/)
 
 ---
 
@@ -103,7 +103,7 @@ Special thanks to [**Future Interns**](https://futureinterns.com) for offering s
 
 If you like my work, feel free to connect:
 
-- 💼 [LinkedIn](https://linkedin.com/in/mrayyan1718)
+- 💼 [LinkedIn – Mohammed Rayyan](https://www.linkedin.com/in/mohammed-rayyan-764a3a25b)
 - 💻 [GitHub](https://github.com/mrayyan1718)
 
 ---
