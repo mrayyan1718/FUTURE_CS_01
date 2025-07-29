@@ -33,7 +33,7 @@ This secure portal allows users to upload files, which are then encrypted using 
 ---
 
 ## 📁 Project Structure
-
+undefined
 Task3/
 ├── app.py # Main Flask application (backend logic)
 ├── encryption.py # AES encryption and key derivation helper functions
@@ -51,7 +51,7 @@ Task3/
 │ ├── TerminalRunning.png
 │ └── ErrorMessage.png
 └── pycache/ # Python bytecode cache (auto-generated, can be ignored)
-
+undefined
 ---
 
 ## 🧪 How It Works
@@ -67,9 +67,10 @@ Task3/
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository and navigate to Task3 folder
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo/Task3
+1. Clone your repo and navigate to the Task 3 folder
+git clone https://github.com/mrayyan1718/FUTURE_CS_01.git
+cd FUTURE_CS_01/Task-3-Secure-File-Sharing-System
+
 
 2. Create and activate a Python virtual environment
 python -m venv venv
