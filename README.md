@@ -1,66 +1,111 @@
-# 🔐 Future Interns – Cyber Security Internship (June–July 2025)
+# 🛡️ Future Interns – Cyber Security Internship (June–July 2025)
 
-Welcome to my internship repository for the **Cyber Security Internship** organized by [Future Interns](https://futureinterns.com). This repo documents my learning, tasks, and hands-on experience completed during the internship period: **28 June – 28 July 2025**.
+Welcome to my internship repository for the **Cyber Security Internship** conducted by [Future Interns](https://futureinterns.com). This repository documents all my learnings, hands-on tasks, and projects completed from **28 June to 28 July 2025**.
 
 ---
 
-## 🎯 Internship Focus
+## 📌 Overview
 
-Practical understanding of core Cybersecurity concepts through:
+This internship focused on real-world cybersecurity practices across three major areas:
 
-- Web Application Penetration Testing
-- OWASP Juice Shop challenges
-- Burp Suite-based network traffic analysis
-- SIEM tools and real-time security monitoring (Splunk)
-- Incident Response simulation using log analysis
+- ✅ Web Application Penetration Testing  
+- ✅ SIEM-Based Security Alert Monitoring  
+- ✅ Secure File Transfer System with AES Encryption  
 
 ---
 
 ## ✅ Tasks Completed
 
-### 🛡️ Task 1 – Web Application Security Testing
+### 🔍 Task 1 – Web Application Security Testing
 
-- Used **Burp Suite** to capture and manipulate HTTP requests  
-- Worked with modules like Proxy, Repeater, Decoder, Comparer  
-- Interacted with vulnerable endpoints in **OWASP Juice Shop**  
-- Documented **3–5 common OWASP Top 10 vulnerabilities**  
-- [View Task 1 Folder](./Task-1-Web-App-Security)
+- Explored **OWASP Juice Shop**, a vulnerable web app
+- Intercepted requests using **Burp Suite**
+- Identified issues like **XSS, SQLi, Broken Auth**
+- Practiced Repeater, Decoder, Comparer modules  
+📂 [View Task 1 Folder](./Task-1-Web-App-Security)
 
 ---
 
 ### 📊 Task 2 – Security Alert Monitoring & Incident Response
 
-- Set up **Splunk Enterprise Free Trial** (SIEM tool)  
-- Ingested and analyzed sample logs from `SOC_Task2_Sample_Logs.txt`  
-- Detected multiple suspicious activities (failed logins, malware alerts, IP brute force)  
-- Created a **dashboard with charts, pie graphs, and a single value panel** using Dashboard Studio  
-- Drafted a full incident response report with screenshots, OWASP mapping, and remediation steps  
-- [View Task 2 Folder](./Task-2-SOC-Alert-Monitoring)
+- Used **Splunk (SIEM)** to analyze log data  
+- Detected failed logins, brute force attempts, and malware  
+- Built a real-time dashboard in Splunk Dashboard Studio  
+- Documented alerts with severity, mapping & mitigation  
+📂 [View Task 2 Folder](./Task-2-Security-Alert-Monitoring)
+
+---
+
+### 🔐 Task 3 – Secure File Sharing System
+
+- Built a Flask web app with **AES encryption (GCM)**  
+- Encrypted files at rest and in transit  
+- Supported secure upload/download with password-derived key  
+- Designed a **Bootstrap UI** with error handling and file listing  
+📂 [View Task 3 Folder](./Task-3-Secure-File-Sharing)
 
 ---
 
 ## 🧠 Skills Gained
 
-- **Burp Suite Workflow** (Proxy, Repeater, Decoder, Comparer)  
-- **SIEM fundamentals using Splunk**  
-- Log analysis, event correlation, and threat detection  
-- Dashboard creation and data visualization  
-- Mapping alerts to **OWASP Top 10**  
-- Drafting incident response documentation
+| Area | Tools & Concepts |
+|------|------------------|
+| Web Security | OWASP Top 10, Burp Suite |
+| Log Analysis | Splunk, Search Processing Language (SPL) |
+| SIEM | Alert classification, Incident response |
+| Cryptography | AES-GCM, PBKDF2, PyCryptodome |
+| Development | Python Flask, HTML/CSS/Bootstrap |
+| Collaboration | Git & GitHub, Documentation |
 
 ---
 
-## ⏳ Internship Duration
+## 🛠️ Tools Used
 
-**Start:** 28 June 2025  
-**End:** 28 July 2025
-
----
-
-## 🙏 Acknowledgement
-
-Thanks to **Future Interns** for this hands-on cybersecurity internship opportunity and real-world experience through simulation projects.
+- **Burp Suite**, **OWASP Juice Shop**
+- **Splunk Free Trial**, **Excel**, **Flask**, **PyCryptodome**
+- **Visual Studio Code**, **Postman**, **GitHub**
 
 ---
 
-> 🔄 This repository will continue to be updated with **Task 3**. Stay tuned!
+## 📁 Folder Structure
+undefined
+FUTURE_CS_01/
+│
+├── Task-1-Web-App-Security/
+│ └── Screenshots, Report.md, README.md
+│
+├── Task-2-Security-Alert-Monitoring/
+│ ├── screenshots/
+│ ├── report.md
+│ ├── Alert_Classification_Task2.xlsx
+│ └── README.md
+│
+├── Task-3-Secure-File-Sharing/
+│ ├── app.py, encryption.py, requirements.txt
+│ ├── templates/index.html
+│ ├── uploads/
+│ ├── screenshots/
+│ └── README.md
+│
+└── README.md (this file)
+undefined
+
+
+---
+
+## 📣 Acknowledgements
+
+Special thanks to [**Future Interns**](https://futureinterns.com) for offering such an engaging and hands-on learning opportunity in cybersecurity.
+
+---
+
+## 🔗 Connect With Me
+
+If you like my work, feel free to connect:
+
+- 💼 [LinkedIn](https://linkedin.com/in/mrayyan1718)
+- 💻 [GitHub](https://github.com/mrayyan1718)
+
+---
+
+> ✨ This repo is my personal internship archive. Contributions, stars ⭐, and forks 🍴 are welcome if you'd like to reuse the code or ideas!
